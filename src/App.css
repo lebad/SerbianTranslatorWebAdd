@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+  background: linear-gradient(180deg, #be1e2d 0%, #1a2956 100%);
+  min-height: 100vh;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+.app-icon {
+  width: 120px;
+  height: 120px;
+  border-radius: 24px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.18);
+  margin-bottom: 24px;
+  background: #fff;
+  object-fit: cover;
+}
+
+.app-title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.app-desc {
+  font-size: 1.2rem;
+  margin-bottom: 32px;
+  color: #e0e0e0;
+}
+
+.appstore-btn {
+  display: inline-block;
+  padding: 14px 32px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(90deg, #007aff 0%, #0051a8 100%);
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+  transition: background 0.2s, transform 0.2s;
+}
+
+.appstore-btn:hover {
+  background: linear-gradient(90deg, #0051a8 0%, #007aff 100%);
+  transform: translateY(-2px) scale(1.04);
+}
+
+@media (max-width: 600px) {
+  .app-icon {
+    width: 80px;
+    height: 80px;
+  }
+  .app-title {
+    font-size: 1.5rem;
+  }
+  .app-desc {
+    font-size: 1rem;
+  }
+  .appstore-btn {
+    padding: 12px 20px;
+    font-size: 1rem;
+  }
+} 
