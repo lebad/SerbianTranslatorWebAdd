@@ -26,4 +26,4 @@ Edit `src/App.js` and replace the placeholder link in the `<a>` tag with your re
 
 ---
 
-© 2024 Сербский переводчик 
+© 2024 Сербский переводчик
