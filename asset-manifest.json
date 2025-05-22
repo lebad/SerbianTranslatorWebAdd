@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/SerbianTranslatorWebAdd/static/css/main.57ed612e.css",
+    "main.js": "/SerbianTranslatorWebAdd/static/js/main.119c54bc.js",
+    "static/media/app-icon.png": "/SerbianTranslatorWebAdd/static/media/app-icon.53952c9741b034a68676.png",
+    "index.html": "/SerbianTranslatorWebAdd/index.html",
+    "main.57ed612e.css.map": "/SerbianTranslatorWebAdd/static/css/main.57ed612e.css.map",
+    "main.119c54bc.js.map": "/SerbianTranslatorWebAdd/static/js/main.119c54bc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57ed612e.css",
+    "static/js/main.119c54bc.js"
+  ]
+}
