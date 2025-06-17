@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/SerbianTranslatorWebAdd/static/css/main.57ed612e.css",
-    "main.js": "/SerbianTranslatorWebAdd/static/js/main.ba75c506.js",
+    "main.js": "/SerbianTranslatorWebAdd/static/js/main.4a6c2d37.js",
     "static/media/app-icon.png": "/SerbianTranslatorWebAdd/static/media/app-icon.53952c9741b034a68676.png",
     "index.html": "/SerbianTranslatorWebAdd/index.html",
     "main.57ed612e.css.map": "/SerbianTranslatorWebAdd/static/css/main.57ed612e.css.map",
-    "main.ba75c506.js.map": "/SerbianTranslatorWebAdd/static/js/main.ba75c506.js.map"
+    "main.4a6c2d37.js.map": "/SerbianTranslatorWebAdd/static/js/main.4a6c2d37.js.map"
   },
   "entrypoints": [
     "static/css/main.57ed612e.css",
-    "static/js/main.ba75c506.js"
+    "static/js/main.4a6c2d37.js"
   ]
 }
