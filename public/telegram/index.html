@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Redirecting...</title>
+    <title>Redirecting to App Store...</title>
     <meta http-equiv="refresh" content="0; url=https://apps.apple.com/rs/app/сербский-переводчик/id6745849589" />
 
     <!-- Google Analytics -->
@@ -12,9 +12,23 @@
       function gtag() { dataLayer.push(arguments); }
       gtag('js', new Date());
       gtag('config', 'G-CYK5WT47XW');
+      
+      // Track the redirect
+      gtag('event', 'telegram_redirect', {
+        'event_category': 'redirect',
+        'event_label': 'telegram_to_appstore'
+      });
+
+      // Fallback redirect
+      window.onload = function() {
+        setTimeout(function() {
+          window.location.href = "https://apps.apple.com/rs/app/сербский-переводчик/id6745849589";
+        }, 1000);
+      };
     </script>
   </head>
   <body>
     <p>Redirecting to the App Store...</p>
+    <p>If you are not redirected automatically, <a href="https://apps.apple.com/rs/app/сербский-переводчик/id6745849589">click here</a>.</p>
   </body>
 </html>
