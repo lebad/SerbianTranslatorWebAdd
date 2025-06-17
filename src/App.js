@@ -10,7 +10,7 @@ function App() {
       <p className="app-desc">AI переводчик для сербского языка. Быстро, удобно, бесплатно!</p>
       <a
         className="appstore-btn"
-        href="https://apps.apple.com/ge/app/сербский-переводчик/id6745849589"
+        href="https://apps.apple.com/rs/app/сербский-переводчик/id6745849589"
         target="_blank"
         rel="noopener noreferrer"
       >
